@@ -13,11 +13,11 @@ import java.util.Collections;
 import java.time.Duration;
 import com.fasterxml.jackson.core.JsonProcessingException;
 
-public class StoreEvent {
+public class EventConsumer {
     private Consumer<String, String> myConsumer;
     private ObjectMapper objectMapper;
 
-    public StoreEvent(){
+    public EventConsumer(){
         Properties consumerConfig = new Properties();
         consumerConfig.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
         consumerConfig.put(ConsumerConfig.GROUP_ID_CONFIG, "event-tracker");

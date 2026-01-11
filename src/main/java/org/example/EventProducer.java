@@ -13,11 +13,11 @@ import java.util.Properties;
 import java.util.UUID;
 import com.fasterxml.jackson.core.JsonProcessingException;
 
-public class AddEevnt {
+public class EventProducer {
     private Producer <String, String> myProducer;
     private ObjectMapper objectMapper = new ObjectMapper();
 
-    public AddEevnt(){
+    public EventProducer(){
         Properties myProducerConfig = new Properties();
 
         myProducerConfig.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
