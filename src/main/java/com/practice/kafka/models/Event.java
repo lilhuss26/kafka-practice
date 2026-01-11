@@ -1,4 +1,4 @@
-package org.example.models;
+package com.practice.kafka.models;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;

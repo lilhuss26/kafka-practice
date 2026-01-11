@@ -1,6 +1,6 @@
-package org.example;
+package com.practice.kafka;
 
-import org.example.models.Event;
+import com.practice.kafka.models.Event;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerConfig;

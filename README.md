@@ -38,7 +38,7 @@ mvn clean package
 ### 3. Run the application
 
 ```bash
-mvn exec:java -Dexec.mainClass="org.example.Main"
+mvn exec:java -Dexec.mainClass="com.practice.kafka.Main"
 ```
 
 The application will:

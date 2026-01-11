@@ -1,6 +1,6 @@
-package org.example;
+package com.practice.kafka;
 
-import org.example.models.Event;
+import com.practice.kafka.models.Event;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerRecord;
