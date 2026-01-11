@@ -5,7 +5,7 @@ A simple Java application demonstrating Apache Kafka producer-consumer pattern w
 ## Project Structure
 
 ```
-src/main/java/org/example/
+src/main/java/com/practice/kafka/
 ├── EventConsumer.java   # Kafka consumer implementation
 ├── EventProducer.java   # Kafka producer implementation
 ├── Main.java           # Application entry point
